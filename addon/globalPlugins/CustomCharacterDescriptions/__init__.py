@@ -67,4 +67,3 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self, *args, **kwargs):
 		super(GlobalPlugin, self).__init__(*args, **kwargs)
 		characterProcessing._charDescLocaleDataMap=LocaleDataMap(CustomCharacterDescriptions)
-		log.info('123')
